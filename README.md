@@ -1,7 +1,7 @@
 # **Classic DVD Corner Hit**
 
 ## Description
-This is a straightforward Python script that mimics the classic DVD logo corner hit animation. It generates one or more different-colored DVD logos and moves them around the terminal screen, bouncing them off the edges and changing their direction and colour when they reach a corner.
+This is a straightforward Python script that mimics the classic DVD logo corner hit animation. It generates one or more different-colored DVD logos and moves them around the terminal screen, bouncing them off the edges and changing their direction and color when they reach a corner.
 
 ## Table of Contents
 1.	Installing and Running
@@ -27,9 +27,9 @@ To stop the animation, use Ctrl-C on your keyboard..
 If you find a bug or have an improvement suggestion, please create an issue or submit a pull request to the github repo.
 
 ## Additional Points
-The bext module is used to clean the terminal screen, move the cursor, and change the text colour.
+The bext module is used to clean the terminal screen, move the cursor, and change the text color.
 The logos move diagonally by modifying their X and Y coordinates by varying amounts based on their direction.
-As a logo comes to a corner, its direction is modified and its colour is picked at random from a list of available colors.
+As a logo comes to a corner, its direction is modified and its color is picked at random from a list of available colors.
 The animation loop will continue endlessly unless the user stops it.
 
 ## Conclusion
